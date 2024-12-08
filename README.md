@@ -28,8 +28,8 @@ A REST API service that processes receipts and calculates reward points based on
 1. Clone the repository
 
 ```bash
-git clone [repository-url]
-cd receipt-processor
+git clone https://github.com/mohithkailash/fetch_rewards.git
+cd fetch_rewards
 ```
 
 2. Install dependencies
@@ -137,6 +137,7 @@ FETCH_BACKEND/
 │   ├── app.py           # Application configuration and server
 │   ├── validation.py    # Input validation functions
 │   ├── calculations.py  # Points calculation logic
+│   ├── exceptions.py    # Custom exceptions
 │   └── tests/
 │       └── test.py      # Unit and integration tests
 ├── Dockerfile          # Docker configuration
