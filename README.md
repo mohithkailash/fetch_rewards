@@ -62,6 +62,8 @@ docker run -p 7000:7000 receipt-processor
 
 ### Process Receipt
 
+This application is available at http://127.0.0.1:7000
+
 `POST /receipts/process`
 
 Processes a receipt and returns an ID for points calculation.
@@ -107,6 +109,9 @@ Processes a receipt and returns an ID for points calculation.
 }
 ```
 
+![image](https://github.com/user-attachments/assets/2e0bd6f1-4275-4054-bf33-e1991818805d)
+
+
 ### Get Points
 
 `GET /receipts/{id}/points`
@@ -120,6 +125,8 @@ Returns the points awarded for a receipt.
   "points": 28
 }
 ```
+![image](https://github.com/user-attachments/assets/536dc4e1-1904-4718-8f0e-d2fd556960ff)
+
 
 ## Error Handling
 
