@@ -178,7 +178,7 @@ The test suite includes:
 
 ## Future Improvements
 
-- Persistent storage
+- Persistent storage including Data models or DTOs
 - API authentication
 - Rate limiting
 - Response caching
