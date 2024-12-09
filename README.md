@@ -156,7 +156,7 @@ FETCH_BACKEND/
 Run the test suite:
 
 ```bash
-python -m unittest app/tests/test.py -v
+docker run receipt-processor sh -c "python -m unittest tests/test.py -v"
 ```
 
 The test suite includes:
